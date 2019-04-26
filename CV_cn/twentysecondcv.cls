@@ -197,17 +197,17 @@
 	{%
 		\round{#1}{
 			\ifcase\value{colorCounter}%
-			maingray\or%
 			mainblue\or%
-			maingray\or%
 			mainblue\or%
-			maingray\or%
 			mainblue\or%
-			maingray\or%
 			mainblue\or%
- 			maingray\or%
+			mainblue\or%
+			mainblue\or%
+			mainblue\or%
+			mainblue\or%
+ 			mainblue\or%
 			mainblue\else%
-			maingray\fi%
+			mainblue\fi%
 		}%
 	}%
 	\stepcounter{colorCounter}%
